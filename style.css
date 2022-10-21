@@ -3,7 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 50vw;
+    height: 95vh;
 }
 
 #main-game{
@@ -17,6 +17,7 @@ body{
     height: 160px;
     width: 160px;
     margin: 10px;
+    font-size: 10vh;
 }
 
 #reiniciar{
