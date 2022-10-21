@@ -28,3 +28,16 @@ body{
     margin-top: 17px;
     border-radius: 16px;
 }
+
+/* Alterando o estilo de acordo com o simbolo jogado */
+.campo[disabled="true"][data-simbolo="X"]{
+    background-color: darkgreen;
+}
+.campo[disabled="true"][data-simbolo="O"]{
+    background-color: purple;
+}
+
+.campo:disabled{
+    background-color: lightgray;
+    border-radius: 20px;
+}
