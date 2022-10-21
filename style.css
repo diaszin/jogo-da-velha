@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vw;
+}
+
+#main-game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.campo{
+    background: darkslateblue;
+    color: whitesmoke;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+}
+
+#reiniciar{
+    background-color: goldenrod;
+    height: 40px;
+    width: 120px;
+    color: white;
+    margin-top: 17px;
+    border-radius: 16px;
+}
